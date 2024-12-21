@@ -1,0 +1,30 @@
+.hero {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.hero img {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+}
+
+.hero-content {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white; /* Adjust based on your design */
+}
+
+.hero-button {
+  padding: 10px 20px;
+  background-color: #007bff; /* Example color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
